@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тут эвакуатор</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__container">
+            <a href="" class="header__logo">
+                <img src="img/logo.png" alt="" class="header__logo-image">
+            </a>
+
+            <div class="header__wrap">
+                <nav class="nav header__nav">
+                    <div class="nav__menu js-menu-wrap">
+                        <ul class="nav__list reset-list">
+                            <li class="nav__item"><a href="#1" class="nav__link">О проекте</a></li>
+                            <li class="nav__item"><a href="#2" class="nav__link">Контакты</a></li>
+                        </ul>
+                    </div>
+                </nav>
+
+                <a href="create.html" class="header__button">Добавить объявление</a>
+
+            </div>
+
+
+        </div>
+    </header>
+
+    <main>
+        <section class="banner">
+            <div class="container banner__container">
+                <h1 class="banner__title">Создание объявления</h1>
+            </div>
+        </section>
+
+        <section class="form">
+            <div class="container form__container">
+                <div class="form__banner">
+                    <img src="img/ban.png" alt="" class="form__img">
+                    <p class="form__text description">Заполните все поля формы на размещение своего объявления на
+                        сайте.<br>
+                        Размещение объявления платное. Стоимость за одно объявление составляет 990 руб. <br>
+                        Объявление будет опубликовано на сайте после оплаты и проверки модератором.</p>
+                </div>
+
+                <form class="form__content">
+                    <label for="" class="form__label">
+                        <span class="form__span">Выберите город</span>
+                        <select type="text" class="form__select">
+                            <option value="" class="form__option">Москва</option>
+                            <option value="" class="form__option">Самара</option>
+                        </select>
+                    </label>
+                    <label for="" class="form__label">
+                        <span class="form__span">Ваше имя</span>
+                        <input type="text" class="form__input">
+                    </label>
+                    <label for="" class="form__label">
+                        <span class="form__span">Номер мобильного телефона</span>
+                        <input type="tel" class="form__input" placeholder="+7 (999) 999 99 99">
+                    </label>
+                    <label for="" class="form__label">
+                        <span class="form__span">Номер городского телефона</span>
+                        <input type="tel" class="form__input" placeholder="+7 (999) 999 99 99">
+                    </label>
+                    <label for="" class="form__label">
+                        <span class="form__span">Ваш email</span>
+                        <input type="email" class="form__input" placeholder="example@gmail.com">
+                    </label>
+                    <label for="" class="form__label">
+                        <span class="form__span">Адрес стоянки эвакуатора</span>
+                        <input type="text" class="form__input">
+                    </label>
+
+
+                    <div class="form__info">
+                        <img src="img/Vector1.png" alt="" class="form__image">
+                        <span class="form__span-info">информация</span>
+                        <img src="img/Vector1.png" alt="" class="form__image">
+                    </div>
+
+                    <label for="" class="form__label">
+                        <span class="form__span">Заголовок объявления</span>
+                        <input type="text" class="form__input">
+                    </label>
+                    <label for="" class="form__label">
+                        <span class="form__span">Описание объявления</span>
+                        <textarea class="form__textarea" id=""></textarea>
+                    </label>
+
+                    <div class="form__info">
+                        <img src="img/Vector3.png" alt="" class="form__image">
+                        <span class="form__span-info">цены</span>
+                        <img src="img/Vector3.png" alt="" class="form__image">
+                    </div>
+
+                    <div class="form__wrap">
+                        <label for="" class="form__labelWr">
+                            <span class="form__span">Легковые автомобили</span>
+                            <div class="form__wrapper">
+                                <input type="text" class="form__input wr">
+                                <span class="form__wrapper-span">рублей</span>
+                            </div>
+
+                        </label>
+
+                        <label class="form__span-text">
+                            <input class="form__private visually-hidden" type="checkbox" name="personal" required>
+                            <span class="form__check-visual"></span>
+                            <span class="form__check-text">Услугу не оказываю</span>
+                        </label>
+                    </div>
+                    <div class="form__wrap">
+                        <label for="" class="form__labelWr">
+                            <span class="form__span">Мототехника</span>
+                            <div class="form__wrapper">
+                                <input type="text" class="form__input wr">
+                                <span class="form__wrapper-span">рублей</span>
+                            </div>
+
+                        </label>
+
+                        <label class="form__span-text">
+                            <input class="form__private visually-hidden" type="checkbox" name="personal" required>
+                            <span class="form__check-visual"></span>
+                            <span class="form__check-text">Услугу не оказываю</span>
+                        </label>
+                    </div>
+                    <div class="form__wrap">
+                        <label for="" class="form__labelWr">
+                            <span class="form__span">Внедорожник</span>
+                            <div class="form__wrapper">
+                                <input type="text" class="form__input wr">
+                                <span class="form__wrapper-span">рублей</span>
+                            </div>
+
+                        </label>
+                        <label class="form__span-text">
+                            <input class="form__private visually-hidden" type="checkbox" name="personal" required>
+                            <span class="form__check-visual"></span>
+                            <span class="form__check-text">Услугу не оказываю</span>
+                        </label>
+                    </div>
+                    <div class="form__wrap">
+                        <label for="" class="form__labelWr">
+                            <span class="form__span">Микроавтобус</span>
+                            <div class="form__wrapper">
+                                <input type="text" class="form__input wr">
+                                <span class="form__wrapper-span">рублей</span>
+                            </div>
+
+                        </label>
+
+
+                        <label class="form__span-text">
+                            <input class="form__private visually-hidden" type="checkbox" name="personal" required>
+                            <span class="form__check-visual"></span>
+                            <span class="form__check-text">Услугу не оказываю</span>
+                        </label>
+                    </div>
+                    <div class="form__wrap">
+                        <label for="" class="form__labelWr">
+                            <span class="form__span">Загородный тариф</span>
+                            <div class="form__wrapper">
+                                <input type="text" class="form__input wr">
+                                <span class="form__wrapper-span">рублей</span>
+                            </div>
+
+                        </label>
+
+                        <label class="form__span-text">
+                            <input class="form__private visually-hidden" type="checkbox" name="personal" required>
+                            <span class="form__check-visual"></span>
+                            <span class="form__check-text">Услугу не оказываю</span>
+                        </label>
+                    </div>
+
+                    <div class="form__info">
+                        <img src="img/Vector3.png" alt="" class="form__image">
+                        <span class="form__span-info">фото</span>
+                        <img src="img/Vector3.png" alt="" class="form__image">
+                    </div>
+
+                    <div class="form__add">
+                        <span class="form__span-add">Прикрепите фотографию к объявлению</span>
+                        <a href="#" class="form__button">Загрузить</a>
+                        <!-- <label class="form__wrapAdd">
+                            <input type="checkbox" class="form__inputt">
+                            <span class="form__span-add">Я соглашаюсь с правилами использования сервиса, а также спередачей
+                                и обработкой моих данных в evarus.ru. Я подтверждаю своё совершеннолетие и
+                                ответственность
+                                за размещение.</span>
+                        </label> -->
+                        <label class="form__label-check">
+                            <input class="form__private visually-hidden" type="checkbox" name="personal" required>
+                            <span class="form__check-visual"></span>
+                            <span class="form__check-text">Я соглашаюсь с правилами использования сервиса, а также
+                                спередачей
+                                и обработкой моих данных в evarus.ru. Я подтверждаю своё совершеннолетие и
+                                ответственность
+                                за размещение.</span>
+                        </label>
+
+                    </div>
+
+
+                    <a href="#" class="form__buttonLoad">Продолжить</a>
+
+
+
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__container">
+            <a href="" class="footer__logo">
+                <img src="img/logo.png" alt="" class="footer__logo-image">
+            </a>
+
+            <ul class="footer__list reset-list">
+                <li class="footer__element">
+                    <a href="" class="footer__link">Вызвать эвакуатор</a>
+                </li>
+                <li class="footer__element">
+                    <a href="" class="footer__link">Добавить эвакуатор на сайт</a>
+                </li>
+                <li class="footer__element">
+                    <a href="" class="footer__link">Помощь</a>
+                </li>
+                <li class="footer__element">
+                    <a href="" class="footer__link">Правила оплаты</a>
+                </li>
+                <li class="footer__element">
+                    <a href="" class="footer__link">Защита персональных данных</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+
+</html>

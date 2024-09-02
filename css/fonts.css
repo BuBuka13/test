@@ -1,0 +1,23 @@
+@font-face {
+    font-display: swap;
+    font-family: 'SFProText';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/SFProText-Regular.ttf') format('ttf');
+  }
+  /* roboto-700 - cyrillic_latin */
+  @font-face {
+    font-display: swap; 
+    font-family: 'SFProText';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/SFProText-Bold.ttf') format('ttf');
+  }
+
+  /* @font-face {
+    font-display: swap; 
+    font-family: 'SFProText';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/SFProText-Semibold.ttf') format('ttf');
+  } */

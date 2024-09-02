@@ -1,0 +1,117 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img,
+svg {
+  max-width: 100%;
+  height: auto
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  min-width: 320px;
+  font-size: 20px;
+  font-family: 'SFProText', Helvetica, sans-serif;
+  background: #F2F4F8;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0, 0, 0, 0);
+  overflow: hidden;
+}
+
+.reset-btn {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+
+.reset-list {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+  max-width: 1500px;
+}
+
+.header__container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+  max-width: 1820px;
+}
+
+.title {
+  font-size: 40px;
+}
+
+.swiper {
+  position: relative;
+  width: 1400px;
+  height: 730px;
+}
+
+
+
+.swiper-button-next{
+  /* position: absolute; */
+  padding: 30px;
+  border: 1px solid #0297D4;
+}
+
+.swiper-button-next:after {
+  font-size: 30px;
+  
+}
+
+.swiper-button-prev:after {
+  font-size: 30px;
+}
+
+.swiper-button-prev {
+  
+  padding: 30px;
+  border: 1px solid #0297D4;
+}
+
+.swiper-pagination {
+  margin-top: 100px;
+}
+
+.swiper-slide {
+  height: 682px;
+}
+
+.swiper-pagination-bullet {
+  width: var(--swiper-pagination-bullet-width, var(--swiper-pagination-bullet-size, 12px));
+  height: var(--swiper-pagination-bullet-height, var(--swiper-pagination-bullet-size, 12px));
+}
+
+input::placeholder {
+  color: #B3C8D1;
+}
